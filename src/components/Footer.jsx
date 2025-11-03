@@ -7,10 +7,10 @@ import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className='w-full mt-10 bg-[#18191B]'>
-        <div className='w-full py-24'>
-            <div className='w-[80%] mx-auto flex gap-5 justify-between'>
+        <div className='w-full py-10 sm:py-24'>
+            <div className='w-[80%] mx-auto flex flex-col sm:flex-row gap-5 justify-between'>
 
-                <div className='w-[20%] space-y-5'>
+                <div className='w-full sm:w-[20%] space-y-5'>
                     <div>
                         <img src='https://takeuforward.org/static/media/TufLogoWhite.55c3498a0dd7701d258e.png' alt='Tuf' width={100}/>
                     </div>
@@ -33,7 +33,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='w-[15%] font-mont space-y-3'>
+                <div className='w-full text-center sm:text-left sm:w-[15%] font-mont space-y-3'>
                     <div className='footer-head'>
                         Company
                     </div>
@@ -57,7 +57,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='w-[15%] font-mont space-y-3'>
+                <div className='w-full text-center sm:text-left sm:w-[15%] font-mont space-y-3'>
                     <div className='footer-head'>
                         Quick Access
                     </div>
@@ -75,7 +75,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='w-[15%] font-mont space-y-3'>
+                <div className='w-full text-center sm:text-left sm:w-[15%] font-mont space-y-3'>
                     <div className='footer-head'>
                         DSA Sheets
                     </div>
@@ -93,7 +93,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='w-[15%] font-mont space-y-3'>
+                <div className='w-full text-center sm:text-left sm:w-[15%] font-mont space-y-3'>
                     <div className='footer-head'>
                         DSA Playlist
                     </div>

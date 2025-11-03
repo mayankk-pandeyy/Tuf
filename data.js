@@ -32,29 +32,8 @@ export const students = [
         companyAlt : '',
         profileImage : '',
         profileAlt : '',
-        name : 'Mayank Pandey'
+        name : 'Pandey'
     },
-    {
-        companyImage : '',
-        companyAlt : '',
-        profileImage : '',
-        profileAlt : '',
-        name : 'Mayank Pandey'
-    },
-    {
-        companyImage : '',
-        companyAlt : '',
-        profileImage : '',
-        profileAlt : '',
-        name : 'Mayank Pandey'
-    },
-    {
-        companyImage : '',
-        companyAlt : '',
-        profileImage : '',
-        profileAlt : '',
-        name : 'Mayank Pandey'
-    }
 ]
 
 export const resources = [

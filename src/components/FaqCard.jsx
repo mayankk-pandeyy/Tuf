@@ -19,7 +19,7 @@ const FaqCard = ({ faq }) => {
           onClick={openHandler}
         >
           <div
-            className={`text-base font-medium transition-colors duration-300 ${
+            className={`sm:text-base text-[12px] font-medium transition-colors duration-300 ${
               open ? 'text-[#FF7E42]' : 'text-white'
             }`}
           >
@@ -35,7 +35,7 @@ const FaqCard = ({ faq }) => {
             open ? 'max-h-40 opacity-100 mt-2' : 'max-h-0 opacity-0'
           }`}
         >
-          <p className="text-gray-300 text-sm">{faq.ans}</p>
+          <p className="text-gray-300 text-[10px] sm:text-sm">{faq.ans}</p>
         </div>
       </div>
     </div>

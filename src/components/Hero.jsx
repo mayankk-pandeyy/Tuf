@@ -23,12 +23,12 @@ const Hero = () => {
 
     return (
         <div className='w-full mt-56 relative'>
-            <div className='absolute right-20'>
+            <div className='absolute right-5 -top-10 sm:right-20'>
                 <svg className="h-6 w-6 md:h-12 md:w-12" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 0L25.3597 8.25467C26.5758 15.6377 32.3624 21.4242 39.7453 22.6403L48 24L39.7453 25.3597C32.3624 26.5758 26.5758 32.3624 25.3597 39.7453L24 48L22.6403 39.7453C21.4242 32.3624 15.6376 26.5758 8.25467 25.3597L0 24L8.25467 22.6403C15.6377 21.4242 21.4242 15.6376 22.6403 8.25467L24 0Z" className="fill-[#EF966C]"></path></svg>
             </div>
             <div className='w-full flex flex-col items-center gap-8'>
-                <div className='text-5xl font-bold font-mont mx-auto flex flex-col items-center gap-10'>
-                    <div className='flex gap-2 items-center'>
+                <div className='text-xl sm:text-5xl font-bold font-mont mx-auto flex flex-col items-center gap-10'>
+                    <div className='flex flex-col sm:flex-row gap-2 items-center'>
                         <div>
                             Advance Your Career with
                         </div>
@@ -41,7 +41,7 @@ const Hero = () => {
                             Join the
                         </div>
                         <div>
-                            <div className='font-mont font-normal text-[#EA763F] border text-2xl px-3 py-2 rounded-4xl border-[#EA763F] -rotate-6'>
+                            <div className='font-mont font-normal text-[#EA763F] border text-sm sm:text-2xl px-3 py-2 rounded-4xl border-[#EA763F] -rotate-6'>
                                 Top 1%
                             </div>
                         </div>
@@ -50,11 +50,11 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className='text-sm font-mont text-center text-gray-400'>
+                <div className='w-[80%] text-[12px] sm:text-sm font-mont text-center text-gray-400'>
                     Master DSA with curated resources and expert guidance – Learn the skills that set you apart and join the Top 1% of coding achievers!
                 </div>
 
-                <div className='flex gap-10 select-none'>
+                <div className='flex flex-col sm:flex-row gap-10 select-none'>
                     <div className='group flex items-center text-lg font-mont gap-1 border border-gray-400 px-4 py-2 cursor-pointer rounded-2xl'>
                         <div className='opacity-0 group-hover:opacity-100 max-w-0 group-hover:max-w-6 transition-all duration-500'>
                             <GrDeploy />

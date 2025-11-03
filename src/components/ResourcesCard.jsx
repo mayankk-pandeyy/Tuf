@@ -2,7 +2,7 @@ import React from 'react'
 
 const ResourcesCard = ({resource}) => {
   return (
-    <div className='w-[350px] bg-[#1E1F22] rounded-3xl'>
+    <div className='min-w-[300px] sm:w-[350px] bg-[#1E1F22] rounded-3xl'>
         <div className='font-mont px-5 py-5 space-y-3 group cursor-pointer'>
             <div className='w-full h-[180px] flex justify-center items-center cursor-pointer group rounded-3xl' style={{backgroundColor : resource.color}}>
                 <div className='scale-125 group-hover:scale-150 transition-all duration-300 px-2 py-2 rounded-xl'>

@@ -15,22 +15,27 @@ const Learn = () => {
 return (
     <div className='w-full mt-24'>
         <div className='w-full space-y-10'>
-            <div className='font-mont text-4xl font-bold text-center'>
+            <div className='font-mont text-xl sm:text-4xl font-bold text-center'>
                 Revolutionize the Way You Learn
             </div>
-            <div className='w-[80%] mx-auto flex flex-col space-y-16 bg-[#252629] px-28 py-20 rounded-2xl'>
-                <div className='flex flex-wrap justify-between gap-10'>
+            <div className='w-[95%] lg:w-[80%] mx-auto flex flex-col space-y-6 sm:space-y-16 bg-[#252629] px-2 py-10 lg:px-28 sm:py-20 rounded-2xl'>
+                <div className='w-full flex overflow-x-auto scrollbar-none justify-between gap-4 sm:gap-10'>
                     {
                         categories.map((category)=>{
-                            return  <div>
-                                        <div className={`button-category ${category === buttonCategory ? ("active") : ("")}`}  onClick={() => categoryActiveHandler(category)}>{category}</div>
+                            return  <div className='w-full'>
+                                        <div className={`button-category whitespace-nowrap ${category === buttonCategory ? ("active") : ("")}`}  onClick={() => categoryActiveHandler(category)}>{category}</div>
                                     </div>
                         })
                     }
                 </div>
 
-                <div className='w-full flex gap-5 justify-between'>
-                    <div className='w-[50%] flex flex-col gap-10'>
+                <div className='w-full flex flex-col lg:flex-row gap-5 justify-between'>
+                    <div className='lg:hidden w-full flex items-center justify-center'>
+                        {
+                            <img src='https://takeuforward.org/static/media/SdeSheets.cfe7a095d81b2d3b8b42.png' alt='img'/>
+                        }
+                    </div>
+                    <div className='w-[90%] lg:w-[50%] flex flex-col gap-10'>
                         {
                             learnCategories[buttonCategory].map((item)=>{
                                 return  <div className='space-y-2'>
@@ -52,7 +57,7 @@ return (
                             })
                         }
                     </div>
-                    <div className='w-[45%] flex items-center justify-center'>
+                    <div className='hidden w-[45%] lg:flex items-center justify-center'>
                         {
                             <img src='https://takeuforward.org/static/media/SdeSheets.cfe7a095d81b2d3b8b42.png' alt='img'/>
                         }
