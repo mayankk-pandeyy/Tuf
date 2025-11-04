@@ -27,8 +27,8 @@ const Hero = () => {
                 <svg className="h-6 w-6 md:h-12 md:w-12" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 0L25.3597 8.25467C26.5758 15.6377 32.3624 21.4242 39.7453 22.6403L48 24L39.7453 25.3597C32.3624 26.5758 26.5758 32.3624 25.3597 39.7453L24 48L22.6403 39.7453C21.4242 32.3624 15.6376 26.5758 8.25467 25.3597L0 24L8.25467 22.6403C15.6377 21.4242 21.4242 15.6376 22.6403 8.25467L24 0Z" className="fill-[#EF966C]"></path></svg>
             </div>
             <div className='w-full flex flex-col items-center gap-8'>
-                <div className='text-xl sm:text-5xl font-bold font-mont mx-auto flex flex-col items-center gap-10'>
-                    <div className='flex flex-col sm:flex-row gap-2 items-center'>
+                <div className='text-xl sm:text-3xl md:text-4xl xl:text-5xl font-bold font-mont mx-auto flex flex-col items-center gap-10'>
+                    <div className='flex flex-col lg:flex-row gap-2 items-center'>
                         <div>
                             Advance Your Career with
                         </div>

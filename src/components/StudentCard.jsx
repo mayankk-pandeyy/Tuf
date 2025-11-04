@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from "../assets/logo.png"
 
 const StudentCard = ({student}) => {
   return (
@@ -8,7 +9,9 @@ const StudentCard = ({student}) => {
                 <img src='https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg' width={60}/>
             </div>
             <div>
-                <div className='w-20 h-20 bg-gray-600 rounded-full border border-gray-400'></div>
+            <div className="w-20 h-20 bg-gray-600 rounded-full border border-gray-400 flex items-center justify-center overflow-hidden">
+                <img src={logo} alt="Ninja" className="w-full object-cover" />
+            </div>
             </div>
             <div>
                 {student.name}

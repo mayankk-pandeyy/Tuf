@@ -48,14 +48,6 @@ const Instructor = () => {
                     </div>
                 </div>
             </div>
-
-            <div>
-                <div>
-                    <div>
-                        <img src=''/>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
   )

@@ -23,9 +23,9 @@ const Navbar = () => {
                 </div>
 
                 {/* Right */}
-                <div className='hidden sm:block'>
+                <div className='hidden md:block'>
                     <div className='flex items-center gap-12'>
-                        <div className='cursor-pointer'>
+                        <div className='cursor-pointer hidden lg:block'>
                             <img src='https://takeuforward.org/static/media/TufPlusLight.041fc694d612b3fbaaa0.png' alt='tuf-dark-logo' width={80}/>
                         </div>
                         <div className='flex items-center gap-1 cursor-pointer'>
@@ -54,7 +54,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="sm:hidden cursor-pointer flex flex-col justify-between w-7 h-6 group" onClick={() => setOpen(!open)}>
+                <div className="md:hidden cursor-pointer flex flex-col justify-between w-7 h-6 group" onClick={() => setOpen(!open)}>
                     <div className={`h-0.5 w-full bg-white rounded transition-all duration-300 ${ open ? "rotate-45 translate-y-[9px]" : ""}`}></div>
                     <div className={`h-0.5 w-full bg-white rounded transition-all duration-300 ${ open ? "opacity-0" : "opacity-100" }`}></div>
                     <div className={`h-0.5 w-full bg-white rounded transition-all duration-300 ${ open ? "-rotate-45 -translate-y-[9px]" : ""}`}></div>

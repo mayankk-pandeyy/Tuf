@@ -1,7 +1,5 @@
 import React from 'react'
 import CountUp from 'react-countup';
-import { FaYoutube } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 
 
 const CommunityCard = ({comm}) => {
@@ -29,7 +27,9 @@ const CommunityCard = ({comm}) => {
                     }
                 </div>
                 <div className='scale-110 text-red-600'>
-                    <FaXTwitter/>
+                    {
+                        <img src={comm.logo} alt='logo' width={20}/>
+                    }
                 </div>
             </div>
         </div>
