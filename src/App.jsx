@@ -9,6 +9,7 @@ import Instructor from './components/Instructor'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
 import JoinUs from './components/JoinUs.JSX'
+import Copyright from './components/Copyright'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Faq/>
       <JoinUs/>
       <Footer/>
+      <Copyright/>
     </div>
   )
 }
