@@ -8,8 +8,8 @@ import Learn from './components/Learn'
 import Instructor from './components/Instructor'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
-import JoinUs from './components/JoinUs.JSX'
 import Copyright from './components/Copyright'
+import JoinUs from './components/JoinUs'
 
 const App = () => {
   return (
